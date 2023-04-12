@@ -1,6 +1,27 @@
 :root {
-  --background-color: #000000;
+  --background-color: #ffffff;
+  --title-color: #000000;
 }
 
 .btn-filter {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4D;
+}
+.title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.btn-filter:hover,
+.btn-filter:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
