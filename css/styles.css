@@ -62,9 +62,11 @@ body {
 .address {
   font-style: normal;
 }
-
+.link-header.link {
+ color: var(--header-color);  
+}
 .link-header {
-  color: var(--header-color); 
+  
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
@@ -144,6 +146,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
 .header-two {
   color: var(--header-color);
   font-weight: 700;
