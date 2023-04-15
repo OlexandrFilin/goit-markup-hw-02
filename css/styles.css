@@ -7,6 +7,7 @@
   --list-heder: #2e2f42;
   --header-color: #2e2f42;
   --tst: tomato;
+  --background-color-ourteam: #f4f4fd;
   --logocolor-right-footer: #f4f4fd;
   --footer-paragraf-color: #f4f4fd;
   --title-color: #000000;
@@ -98,6 +99,9 @@ h3 {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+}
+.section-our-team {
+  background-color: var(--background-color-ourteam); /* : #F4F4FD; */
 }
 /* footer */
 .footer {
