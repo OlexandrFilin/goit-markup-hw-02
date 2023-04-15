@@ -159,14 +159,14 @@ body {
   text-transform: capitalize;
 }
 .header-two-portfolio {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  /* font-family: 'Roboto', sans-serif;
+  font-style: normal; */
+  font-weight: 500;/**/
+  font-size: 20px;/**/
+  line-height: 1.2;/**/
   /* identical to box height, or 120% */
 
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02em;/**/
 
   /* NAVY BLUE */
 
@@ -211,14 +211,14 @@ body {
 
   font-family: inherit;
   font-weight: 500;
-  display: flex;
+  font-size: 16px;
+  line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
 }
 .btn:hover,
 .btn:focus {
   color: var(--color-btn-primari); /* #F4F4FD  */
-
   background-color: var(--background-color-btn-hero-active); /* 404BBF */
   cursor: pointer;
 }
