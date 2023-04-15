@@ -50,10 +50,8 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.visually-hidden,
-.color-header {
- color: var(--header-color);
-}
+
+
 /* heder */
 .list-nav,
 .list-other {
@@ -143,7 +141,7 @@ body {
 }
 /* section2 Features */
 .header-three {
-  color: var(--hed-color);
+  color: var(--header-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
