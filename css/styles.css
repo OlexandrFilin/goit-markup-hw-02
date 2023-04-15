@@ -3,11 +3,17 @@
   --body-color: #434455;
   --logocolor-left: #4d5ae5;
   --logocolor-right: #2e2f42;
+  --address-color: #434455;
   --list-heder: #2e2f42;
+  --header-color: #2e2f42;
   --tst: tomato;
+  --logocolor-right-footer: #f4f4fd;
+  --footer-paragraf-color: #f4f4fd;
   --title-color: #000000;
   --background-color-hero: #000000;
   --color-herotitle: #ffffff;
+  --background-footer: ;
+
   --color-btn-primari: #ffffff;
   --background-btn-primary: #4d5ae5;
 
@@ -22,8 +28,9 @@
 }
 /* body - color text paragraf */
 body {
-  background-color: var(--background-color);
-  color: var(--body-color);
+  background-color: var(--background-color); /*#ffffff;*/
+  color: var(--body-color); /*#434455;*/
+  /* color: red; */
   font-family: 'Roboto', 'sans-serif';
   font-style: normal;
   font-weight: 400;
@@ -31,26 +38,41 @@ body {
   line-height: 1.5; /* or 150% */
   letter-spacing: 0.02em;
 }
+h2 {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+h3 {
+  color: var(--header-color); /* #2e2f42*/
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
 .list {
   /* крапки списків */
   list-style: none;
 }
 
-.link {
-  /* підкреслення */
-  text-decoration: none;
-  font-weight: inherit;
-  font-style: normal;
-  /* color: var(--logocolor-right); */
-  /* color: inherit; */
-}
 /* heder */
-.header {
+.header-address {
+  color: var(--body-color);
+  text-decoration: none;
+  font-style: normal;
 }
-
-.header-link,
-.footer-logo {
-  color: --logocolor-right;
+.header-nav {
+  color: var(--colorheader); /*#2e2f42; */
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.header-logo {
+  color: var(--logocolor-right); /*#2e2f42*/
   font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
@@ -58,14 +80,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.header-logo-left,
-.footer-logo-left {
-  color: var(--logocolor-left);
-}
-
-.header-list {
-  font-weight: 500;
-  color: var(--list-heder);
+.logo-left {
+  color: var(--logocolor-left); /* #4d5ae5;*/
 }
 
 /* main (hero) */
@@ -80,15 +96,35 @@ body {
   line-height: 1.07;
   text-align: center;
 }
-
+/* footer */
+.footer {
+  background-color: black;
+}
+.footer-logo {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logocolor-right-footer); /* #f4f4fd;*/
+}
+.footer-paragraph {
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--footer-paragraf-color); /*#f4f4fd;*/
+}
 .btn {
+  font-family: inherit;
   font-weight: 500;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--color-btn-primari);
-  background-color: var(--background-btn-primary);
-  background-color: blue;
+  background-color: var(--background-btn-primary); /*#4d5ae5*/
+  /* background-color: blue; */
 }
 
 /* .btn-filter {
