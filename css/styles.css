@@ -3,10 +3,9 @@
   --body-color: #434455;
   --logocolor-left: #4d5ae5;
   --logocolor-right: #2e2f42;
-  /* --address-color: #434455; */
-  /* --list-heder: #2e2f42; */
+ 
   --header-color: #2e2f42;
-  --hed-color: #2e2f42;
+
   --text-color-active-link: #4d5ae5;
   --color-btn-hero-active: #404bbf;
   --color-btn-hero: #ffffff;
@@ -15,7 +14,7 @@
   --background-color-ourteam: #f4f4fd;
   --logocolor-right-footer: #f4f4fd;
   --footer-paragraf-color: #f4f4fd;
-  /* --title-color: #000000; */
+  
   --background-color-hero: #2e2f42;
   --color-herotitle: #ffffff;
   --heder-portfolio-color: #2e2f42;
@@ -26,12 +25,7 @@
   --color-btn-secondary: #ffffff;
   --background-btn-secondary: #4d5ae5;
 
-  /* --background-btn-secondary-pf: #404bbf; */
-  /* --color-btn-secondary-pf: #f4f4fd; */
-
-  /* --background-btn-primary-pf: #f4f4fd; */
-  /* --color-btn-primary-pf: #404bbf; */
-}
+ }
 /* body - color text paragraf */
 body {
   background-color: var(--background-color); /*#ffffff;*/
@@ -68,10 +62,9 @@ body {
 .address {
   font-style: normal;
 }
-.link-heder-color {
-  color: var(--header-color); /*#2e2f42 */
-}
+
 .link-header {
+  color: var(--header-color); 
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
@@ -161,20 +154,7 @@ body {
   text-transform: capitalize;
 }
 
-/* перенести в портфолио */
-.header-two-portfolio {
-  /* font-family: 'Roboto', sans-serif;
-  font-style: normal; */
-  font-weight: 500; /**/
-  font-size: 20px; /**/
-  line-height: 1.2; /**/
-  /* identical to box height, or 120% */
-  letter-spacing: 0.02em; /**/
 
-  /* NAVY BLUE */
-
-  color: var(--heder-portfolio-color); /*#2e2f42; */
-}
 .about-text {
 }
 
@@ -211,6 +191,18 @@ body {
   letter-spacing: 0.02em;
   color: var(--footer-paragraf-color); /*#f4f4fd;*/
 }
+
+/* portfolio */
+
+.header-two-portfolio {
+   font-weight: 500; /**/
+  font-size: 20px; /**/
+  line-height: 1.2; /**/
+  /* identical to box height, or 120% */
+  letter-spacing: 0.02em; /**/
+  color: var(--heder-portfolio-color); /*#2e2f42; */
+}  
+
 .btn {
   color: var(--background-btn-primary); /*#4d5ae5  */
   background-color: var(--color-btn-primari); /* #F4F4FD */
