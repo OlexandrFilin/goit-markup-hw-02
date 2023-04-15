@@ -7,12 +7,16 @@
   --list-heder: #2e2f42;
   --header-color: #2e2f42;
   --text-color-active-link: #4d5ae5;
+  --color-btn-hero-active: ;
+  --color-btn-hero: #ffffff;
+  --background-color-btn-hero: #4d5ae5;
+  --background-color-btn-hero-active: #404bbf;
   --tst: tomato;
   --background-color-ourteam: #f4f4fd;
   --logocolor-right-footer: #f4f4fd;
   --footer-paragraf-color: #f4f4fd;
   --title-color: #000000;
-  --background-color-hero: #000000;
+  --background-color-hero: #2e2f42;
   --color-herotitle: #ffffff;
   --background-footer: ;
 
@@ -111,16 +115,42 @@ h3 {
 
 /* main (hero) */
 .hero {
-  /* background-color: var(--background-color-hero); */
+  background-color: var(--background-color-hero);
 }
 .hero-title {
-  background-color: var(--background-color-hero);
-  color: var(--color-herotitle);
+  color: var(--color-herotitle); /*#ffffff; */
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
+.btn-hero {
+  background-color: var(--background-color-btn-hero); /*#4D5AE5*/
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.04em;
+  color: var(--color-btn-hero); /*#FFFFFF*/
+}
+.btn-hero:hover,
+.btn-hero:focus {
+  background-color: var(--background-color-btn-hero-active) ;
+}
+/* section2 Features */
+.about-header {
+ /*  color: var(--header-color); #2e2f42
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;*/
+}
+.about-text {
+  
+}
+
 .section-our-team {
   background-color: var(--background-color-ourteam); /* : #F4F4FD; */
 }
