@@ -50,7 +50,10 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+.visually-hidden,
+.color-header {
+ color: var(--header-color);
+}
 /* heder */
 .list-nav,
 .list-other {
