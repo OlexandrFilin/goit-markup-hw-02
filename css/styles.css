@@ -17,7 +17,7 @@
   /* --title-color: #000000; */
   --background-color-hero: #2e2f42;
   --color-herotitle: #ffffff;
-  /* --background-footer: ; */
+  --heder-portfolio-color: #2e2f42;
 
   --color-btn-primari: #f4f4fd;
   --background-btn-primary: #4d5ae5;
@@ -161,16 +161,16 @@ body {
 .header-two-portfolio {
   /* font-family: 'Roboto', sans-serif;
   font-style: normal; */
-  font-weight: 500;/**/
-  font-size: 20px;/**/
-  line-height: 1.2;/**/
+  font-weight: 500; /**/
+  font-size: 20px; /**/
+  line-height: 1.2; /**/
   /* identical to box height, or 120% */
 
-  letter-spacing: 0.02em;/**/
+  letter-spacing: 0.02em; /**/
 
   /* NAVY BLUE */
 
-   color:--header-color; /*#2e2f42; */
+  color: var(--heder-portfolio-color); /*#2e2f42; */
 }
 .about-text {
 }
@@ -218,7 +218,8 @@ body {
 }
 .btn:hover,
 .btn:focus {
-  color: var(--color-btn-primari); /* #F4F4FD  */
+  /*color: var(--color-btn-primari);  #F4F4FD  */
+  color: var(--color-btn-hero); /* #FFFFFF  */
   background-color: var(--background-color-btn-hero-active); /* 404BBF */
   cursor: pointer;
 }
