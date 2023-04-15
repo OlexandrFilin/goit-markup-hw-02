@@ -1,9 +1,97 @@
 :root {
   --background-color: #ffffff;
+  --body-color: #434455;
+  --logocolor-left: #4d5ae5;
+  --logocolor-right: #2e2f42;
+  --list-heder: #2e2f42;
+  --tst: tomato;
   --title-color: #000000;
+  --background-color-hero: #000000;
+  --color-herotitle: #ffffff;
+  --color-btn-primari: #ffffff;
+  --background-btn-primary: #4d5ae5;
+
+  --color-btn-secondary: #ffffff;
+  --background-btn-secondary: #4d5ae5;
+
+  --background-btn-secondary-pf: #404bbf;
+  --color-btn-secondary-pf: #f4f4fd;
+
+  --background-btn-primary-pf: #f4f4fd;
+  --color-btn-primary-pf: #404bbf;
+}
+/* body - color text paragraf */
+body {
+  background-color: var(--background-color);
+  color: var(--body-color);
+  font-family: 'Roboto', 'sans-serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5; /* or 150% */
+  letter-spacing: 0.02em;
+}
+.list {
+  /* крапки списків */
+  list-style: none;
 }
 
-.btn-filter {
+.link {
+  /* підкреслення */
+  text-decoration: none;
+  font-weight: inherit;
+  font-style: normal;
+  /* color: var(--logocolor-right); */
+  /* color: inherit; */
+}
+/* heder */
+.header {
+}
+
+.header-link,
+.footer-logo {
+  color: --logocolor-right;
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-logo-left,
+.footer-logo-left {
+  color: var(--logocolor-left);
+}
+
+.header-list {
+  font-weight: 500;
+  color: var(--list-heder);
+}
+
+/* main (hero) */
+.hero {
+  /* background-color: var(--background-color-hero); */
+}
+.hero-title {
+  background-color: var(--background-color-hero);
+  color: var(--color-herotitle);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
+.btn {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--color-btn-primari);
+  background-color: var(--background-btn-primary);
+  background-color: blue;
+}
+
+/* .btn-filter {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -22,6 +110,5 @@
 }
 .btn-filter:hover,
 .btn-filter:focus {
-  color: #ffffff;
-  background-color: #404bbf;
-}
+  color: var(--background-color);
+  background-color: #404bbf; */
