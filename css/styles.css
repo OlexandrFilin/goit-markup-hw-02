@@ -6,6 +6,7 @@
   /* --address-color: #434455; */
   /* --list-heder: #2e2f42; */
   --header-color: #2e2f42;
+  --hed-color: #2e2f42;
   --text-color-active-link: #4d5ae5;
   --color-btn-hero-active: #404bbf;
   --color-btn-hero: #ffffff;
@@ -143,7 +144,7 @@ body {
 }
 /* section2 Features */
 .header-three {
-  color: var(--header-color); /* #2e2f42 */
+  color: var(--hed-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -158,6 +159,8 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+
+/* перенести в портфолио */
 .header-two-portfolio {
   /* font-family: 'Roboto', sans-serif;
   font-style: normal; */
@@ -181,6 +184,9 @@ body {
 }
 .ourteam-list-item {
   background-color: var(--background-color); /* #ffffff; */
+}
+.ourteam-paragraf {
+  font-size: 16px;
 }
 /* footer */
 .footer {
