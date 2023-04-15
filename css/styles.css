@@ -61,22 +61,20 @@ h3 {
 }
 /* heder */
 .list-nav,
-.list {
-  color: var(--header-color); /*#2e2f42; */
-  /* крапки списків */
-  list-style: none;
-  text-decoration: none;
-  font-weight: 500;
-  letter-spacing: 0.02em;
+.list-other {
+ 
 }
-
+.list {
+   /* крапки списків */
+  list-style: none;
+}
 .address {
   color: var(--body-color);
   font-style: normal;
 }
 
 .link {
-  color: var(--body-color);
+   color: var(--body-color);  /*#434455; */
   text-decoration: none;
 }
 
@@ -85,6 +83,14 @@ h3 {
   text-decoration: none;
   font-style: normal;
 } */
+.link-header {
+  color: var(--header-color); /*#2e2f42; */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5; /* or 150% */
+  letter-spacing: 0.02em;
+}
 .header-nav {
 }
 .link.header-activ {
@@ -103,7 +109,7 @@ h3 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
+
 }
 .header-logo:hover {
   color: var(--background-color);
@@ -127,11 +133,11 @@ h3 {
 }
 .btn-hero {
   background-color: var(--background-color-btn-hero); /*#4D5AE5*/
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-btn-hero); /*#FFFFFF*/
 }
@@ -163,7 +169,7 @@ h3 {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
