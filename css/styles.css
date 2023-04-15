@@ -84,7 +84,7 @@ h3 {
   font-style: normal;
 } */
 .link-header {
-  color: var(--header-color); /*#2e2f42; */
+  color: var(--header-color); /*#2e2f42 */
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
